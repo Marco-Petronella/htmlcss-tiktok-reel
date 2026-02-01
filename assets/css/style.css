@@ -64,7 +64,11 @@ footer {
 	.caption-text {
 		max-width: 80%;
 	}
+	.bi {
+		font-size: 200%;
+	}
 }
+
 
 /* Sidebar */
 .sidebar {
@@ -92,7 +96,11 @@ footer {
 	height: 10vh;
 	background-color: black;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	align-items:center;
+	i {
+		display: block;
+	}
 }
 
 /* ---------------------
