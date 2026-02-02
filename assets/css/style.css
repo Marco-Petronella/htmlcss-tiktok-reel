@@ -61,12 +61,17 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	.userid {
+		margin: 0 0 0.5rem 1rem;
+	}
 	.caption-text {
 		max-width: 80%;
+		margin: 0 0 1rem 1rem;
 	}
 }
 .footer-button {
 	text-align: center;
+	margin-top: 1rem;
 }
 
 
@@ -102,9 +107,6 @@ footer {
 		display: block;
 	}
 }
-.footer-button {
-	margin-top: 1rem;
-}
 .bi {
 		font-size: 150%;
 }
@@ -139,3 +141,27 @@ da rimuovere una volta concluso
 }
 
 /* --------------------- */
+/* bonus */
+.bi-plus-circle-fill {
+ color: red;
+ position: absolute; 
+ translate: -36px 33px;
+}
+.circle-followed {
+	color: red;
+	position: absolute;
+	font-size: 50%;
+	translate: -19px -4px;
+}
+.circle-mail {
+	color: red;
+	position: absolute;
+	font-size: 150%;
+	translate: 50px -40px;
+}
+.number-mail {
+	color: white;
+	position: absolute;
+	font-size: 80%;
+	translate: 55px -35px;
+}
