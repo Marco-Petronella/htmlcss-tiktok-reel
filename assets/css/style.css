@@ -6,7 +6,7 @@
 
 body {
 	margin: 0 auto;
-	font-family: 'TikTok Sans', sans-serif;
+	font-family: "TikTok Sans", sans-serif;
 }
 
 video {
@@ -37,17 +37,18 @@ video {
 	le tue regole, se necessario. */
 	display: flex;
 
-	.bi-play-btn,
-	.bi-search {
-		color: white;
-		margin: 1rem;
-	}
-
 	p {
 		display: inline;
 		color: white;
 		margin: 1rem;
 	}
+
+
+}
+
+.bi-play-btn, .bi-search {
+	color: white;
+	margin: 1rem;
 }
 
 /* Footer */
@@ -64,16 +65,17 @@ footer {
 	.userid {
 		margin: 0 0 0.5rem 1rem;
 	}
+
 	.caption-text {
 		max-width: 80%;
 		margin: 0 0 1rem 1rem;
 	}
 }
+
 .footer-button {
 	text-align: center;
 	margin-top: 1rem;
 }
-
 
 /* Sidebar */
 .sidebar {
@@ -86,9 +88,8 @@ footer {
 	le tue regole, se necessario. */
 	display: flex;
 	flex-direction: column;
-	align-items:center;
+	align-items: center;
 	color: white;
-
 }
 
 .side-item {
@@ -101,67 +102,58 @@ footer {
 	background-color: black;
 	display: flex;
 	justify-content: space-evenly;
-	align-items:center;
+	align-items: center;
 	align-items: first baseline;
+
 	i {
 		display: block;
 	}
 }
+
 .bi {
-		font-size: 150%;
+	font-size: 150%;
 }
+
 .inactive {
 	opacity: 0.5;
 }
+
 .active {
 	opacity: 1;
 }
-/* ---------------------
-Regole per evidenziare i blocchi 
-da rimuovere una volta concluso
---------------------- */
-.debug footer {
-	min-height: 100px;
-	border: 2px dashed #fff;
-}
 
-.debug .sidebar {
-	min-width: 80px;
-	min-height: 450px;
-	border: 2px dashed #ff0;
-}
 
-.debug .reel-header {
-	min-height: 50px;
-	border: 2px dashed #fff;
-}
-
-.debug {
-	border: 2px dashed #fff
-}
-
-/* --------------------- */
 /* bonus */
 .bi-plus-circle-fill {
- color: red;
- position: absolute; 
- translate: -36px 33px;
+	color: red;
+	position: absolute;
+	translate: -36px 33px;
 }
+
 .circle-followed {
 	color: red;
 	position: absolute;
 	font-size: 50%;
 	translate: -19px -4px;
 }
+
 .circle-mail {
 	color: red;
 	position: absolute;
 	font-size: 150%;
 	translate: 50px -40px;
 }
+
 .number-mail {
 	color: white;
 	position: absolute;
 	font-size: 80%;
 	translate: 55px -35px;
+}
+
+.shadow {
+	border-radius: 1rem;
+	box-shadow:
+		3px 0px fuchsia,
+		-3px 0px grey;
 }
